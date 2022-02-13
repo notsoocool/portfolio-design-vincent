@@ -60,9 +60,9 @@ export default function Home() {
  }; */
 
   return (
-    <div className="dark:bg-black w-full h-full transition-colors duration-500">
+    <div className="dark:bg-black scroll-smooth w-full h-full transition-colors duration-500">
       <Head>
-        <title>NextWind</title>
+        <title>Portfolio Vincent</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>

@@ -48,43 +48,43 @@ export default function Landing() {
         <p className="pt-5 xl:pt-11 w-[90%] xl:w-[80%] font-Inter uppercase self-start text-[0.8rem] xl:text-[2rem] pl-[10%] dark:text-white transition duration-500 ease-in-out">
             Some reflect his interests in the language of colour, and also in Japanese ukiyo-e. There are two series of dying sunflowers. The first was painted in Paris in 1887 and shows flowers lying on the ground.
         </p>
-        <div className="pt-[8rem] pl-[5%] xl:pl-0 w-[100%] flex flex-col xl:flex-row justify-end pb-[20rem]">
+        <div className="pt-[8rem] pl-[5%] xl:pl-0 w-[100%] flex flex-col xl:flex-row justify-end pb-[15rem] xl:pb-[20rem]">
             <img src="https://cdn.discordapp.com/attachments/941091409509896283/942358432466477076/Group.svg" className="pr-[6%]"/>
             <div className=" flex w-full xl:w-[55%] flex-col pt-11 xl:pt-[6rem] xl:pr-[12%] font-Inter uppercase">
                 <div className="flex w-[100%] justify-between pr-[5%]">
                     <div className="flex flex-col">
-                        <a className=" text-2xl font-bold dark:text-white duration-500 ease-in-out">Nuenen and Antwerp</a>
-                        <a className=" text-lg dark:text-white duration-500 ease-in-out">painting intern</a>
+                        <a className=" text-xl xl:text-2xl font-bold dark:text-white duration-500 ease-in-out">Nuenen and Antwerp</a>
+                        <a className=" text-base xl:text-lg dark:text-white duration-500 ease-in-out">painting intern</a>
                     </div>
-                    <a className="pt-2 text-2xl font-bold text-gray-400">1883</a>
+                    <a className="pt-2 text-xl xl:text-2xl font-bold text-gray-400">1883</a>
                 </div>
                 <div className="flex w-[100%] pt-11 justify-between pr-[5%]">
                     <div className="flex flex-col">
-                        <a className=" text-2xl font-bold dark:text-white duration-500 ease-in-out">PAris</a>
-                        <a className=" text-lg dark:text-white duration-500 ease-in-out">Junior Painter</a>
+                        <a className=" text-xl xl:text-2xl font-bold dark:text-white duration-500 ease-in-out">PAris</a>
+                        <a className=" text-base xl:text-lg dark:text-white duration-500 ease-in-out">Junior Painter</a>
                     </div>
-                    <a className="pt-2 text-2xl font-bold text-gray-400">1886</a>
+                    <a className="pt-2 text-xl xl:text-2xl font-bold text-gray-400">1886</a>
                 </div>
                 <div className="flex w-[100%] pt-11 justify-between pr-[5%]">
                     <div className="flex flex-col">
-                        <a className=" text-2xl font-bold dark:text-white duration-500 ease-in-out">Gauguin's visit</a>
-                        <a className=" text-lg dark:text-white duration-500 ease-in-out">Experimental artist</a>
+                        <a className=" text-xl xl:text-2xl font-bold dark:text-white duration-500 ease-in-out">Gauguin's visit</a>
+                        <a className=" text-base xl:text-lg dark:text-white duration-500 ease-in-out">Experimental artist</a>
                     </div>
-                    <a className="pt-2 text-2xl font-bold text-gray-400">1888</a>
+                    <a className="pt-2 text-xl xl:text-2xl font-bold text-gray-400">1888</a>
                 </div>
                 <div className="flex w-[100%] pt-11 justify-between pr-[5%]">
                     <div className="flex flex-col">
-                        <a className=" text-2xl font-bold dark:text-white duration-500 ease-in-out">Saint-Rémy</a>
-                        <a className=" text-lg dark:text-white duration-500 ease-in-out">Senior Painter</a>
+                        <a className=" text-xl xl:text-2xl font-bold dark:text-white duration-500 ease-in-out">Saint-Rémy</a>
+                        <a className=" text-base xl:text-lg dark:text-white duration-500 ease-in-out">Senior Painter</a>
                     </div>
-                    <a className="pt-2 text-2xl font-bold text-gray-400">1889</a>
+                    <a className="pt-2 text-xl xl:text-2xl font-bold text-gray-400">1889</a>
                 </div>
                 <div className="flex w-[100%] pt-11 justify-between pr-[5%]">
                     <div className="flex flex-col">
-                        <a className=" text-2xl font-bold dark:text-white duration-500 ease-in-out">Auvers-sur-Oise</a>
-                        <a className=" text-lg dark:text-white duration-500 ease-in-out">painting studio manager</a>
+                        <a className=" text-xl xl:text-2xl font-bold dark:text-white duration-500 ease-in-out">Auvers-sur-Oise</a>
+                        <a className=" text-base xl:text-lg dark:text-white duration-500 ease-in-out">painting studio manager</a>
                     </div>
-                    <a className="pt-2 text-2xl font-bold text-gray-400">1890</a>
+                    <a className="pt-2 text-xl xl:text-2xl font-bold text-gray-400">1890</a>
                 </div>
             </div>
         </div>
