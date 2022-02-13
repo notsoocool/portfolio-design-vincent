@@ -5,10 +5,10 @@ import React from 'react';
 const Footer = () => {
    
     return(
-      <div className=" bg-transparent w-full mt-[-10rem] overflow-hidden font-Bebas py-8 duration-500  z-50 "> 
-        <div className='flex justify-evenly'>
+      <div className=" bg-transparent w-full mt-[-10rem] overflow-hidden font-Inter py-11 duration-500  z-50 "> 
+        <div className='flex w-full justify-evenly'>
             <a href="" className=' dark:text-white font-Inter ease-in-out duration-500'>☻@vangogh.com</a>
-            <div className="flex space-x-[8%] ">
+            <div className="hidden xl:flex justify-evenly space-x-[8%] ">
                 <div className='flex'>
                     <a href="" className=' dark:text-white font-Inter uppercase ease-in-out duration-500'>Linkedin</a>
                     <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg" >
