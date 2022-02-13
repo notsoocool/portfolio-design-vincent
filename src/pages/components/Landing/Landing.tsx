@@ -14,31 +14,31 @@ export default function Landing() {
         </p>
         <div className=" pt-[10%] pr-[5%] flex justify-center">
             <div className="pr-[10%]">
-                <img src="/image/1.svg" />
+                <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357990319751238/1.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">1    THE STARRY NIGHT</a>
             </div>
             <div className="pt-[3%]">
-                <img src="/image/2.svg" />
+                <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357990890168320/2.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">2    THE NIGHT CAFE</a>
             </div>
         </div>
         <div className=" pt-24 pl-[7%] flex justify-center">
             <div className="pr-[11%]">
-                <img src="/image/3.svg" />
+                <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357991158599710/3.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">3    THE RED VINEYARD</a>
             </div>
             <div className="">
-                <img src="/image/4.svg" />
+                <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357979792044072/4.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">4    WARD IN THE HOSPITAL IN ARLES</a>
             </div>
         </div>
         <div className=" pt-24 flex justify-center">
             <div className="pr-[3%]">
-                <img src="/image/5.svg" />
+                <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357980194693190/5.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">5    PLOUGHMAN IN THE FIELDS NEAR ARLES</a>
             </div>
             <div className="pt-[3%]">
-                <img src="/image/6.svg" />
+                <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357989787054140/6.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">6    PAUL GAUGUINS'S ARMCHAIR</a>
             </div>
         </div>
@@ -49,7 +49,7 @@ export default function Landing() {
             Some reflect his interests in the language of colour, and also in Japanese ukiyo-e. There are two series of dying sunflowers. The first was painted in Paris in 1887 and shows flowers lying on the ground.
         </p>
         <div className="pt-[8rem] w-[100%] flex justify-end pb-[20rem]">
-            <img src="image/Group.svg" className="pr-[6%]"/>
+            <img src="https://cdn.discordapp.com/attachments/941091409509896283/942358432466477076/Group.svg" className="pr-[6%]"/>
             <div className="flex w-[55%] flex-col pt-[6rem] pr-[12%] font-Inter uppercase">
                 <div className="flex w-[100%] justify-between pr-[5%]">
                     <div className="flex flex-col">
