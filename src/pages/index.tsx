@@ -1,6 +1,5 @@
 import Head from "next/head";
-import React, { useEffect, useRef } from "react";
-import useWindowSize from "../hooks/useWindowSize";
+import React from "react";
 import Landing from "./components/Landing/Landing";
 import Footer from "./props/Footer";
 import Header from "./props/Header";
