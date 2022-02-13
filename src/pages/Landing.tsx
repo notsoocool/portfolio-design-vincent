@@ -1,11 +1,12 @@
 import React from "react";
+import Link from 'next/link';
 
-export default function Landing() {
+const Landing = () => {
    
   
   return (
   
-    <div className=" overflow-y-hidden bg-white dark:bg-black mt-[25%] xl:mt-[10%] transition-colors duration-500 ">
+    <div className=" overflow-x-hidden bg-white dark:bg-black mt-[25%] xl:mt-[10%] transition-colors duration-500 ">
 
       <main className="flex flex-col content-center">
         <p className=" font-Inter w-[90%] xl:w-[60%] uppercase self-start text-[2rem] xl:text-[5rem] pl-[10%] dark:text-white transition duration-500 ease-in-out">
@@ -14,9 +15,14 @@ export default function Landing() {
         </p>
         <div className=" pt-[10%] pl-[10%] xl:pl-0 pr-[10%] xl:pr-[5%] flex flex-col xl:flex-row justify-center">
             <div className="pr-[10%]">
-                <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357990319751238/1.svg" />
-                <a className="font-Inter dark:text-white duration-500 ease-in-out">1 &nbsp;&nbsp;&nbsp;&nbsp; THE STARRY NIGHT</a>
+                <Link href="/Night">
+                    <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357990319751238/1.svg"  className="cursor-pointer"/>
+                </Link>
+                <Link href="/Night">
+                    <a className="font-Inter dark:text-white duration-500 ease-in-out">1 &nbsp;&nbsp;&nbsp;&nbsp; THE STARRY NIGHT</a>
+                </Link>
             </div>
+            
             <div className=" pt-[10%]  xl:pt-[3%]">
                 <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357990890168320/2.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">2 &nbsp;&nbsp;&nbsp;&nbsp;   THE NIGHT CAFE</a>
@@ -92,3 +98,6 @@ export default function Landing() {
     </div>
   );
 }
+
+
+export default Landing;

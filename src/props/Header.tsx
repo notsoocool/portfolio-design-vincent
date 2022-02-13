@@ -1,6 +1,6 @@
 import React,{ useContext } from 'react';
 
-import { ColorMode, ThemeContext } from '../../modules/ThemeProvider';
+import { ColorMode, ThemeContext } from '../modules/ThemeProvider';
 
 
 const Header = () => {
@@ -30,9 +30,9 @@ const Header = () => {
             <button onClick={() => {
                 setColorMode(colorMode === ColorMode.dark ? ColorMode.light : ColorMode.dark)
                 }}>{colorMode === ColorMode.dark ? '' : ''}
-                <svg width="32" height="26" viewBox="0 0 32 26" fill="white" className='w-10'>
+                <svg width="32" height="26" viewBox="0 0 32 26"  className=' fill-transparent dark:fill-white w-10'>
                     <circle cx="16" cy="13" r="9.5" className=' stroke-black dark:stroke-white duration-500 ease-in-out'/>
-                    <path fillRule="evenodd" clipRule="evenodd" d="M16 3V23C21.5228 23 26 18.5228 26 13C26 7.47715 21.5228 3 16 3Z" fill="black"/>
+                    <path fillRule="evenodd" clipRule="evenodd" d="M16 3V23C21.5228 23 26 18.5228 26 13C26 7.47715 21.5228 3 16 3Z" className=" fill-black dark:fill-black"/>
                 </svg>
             </button>
             <svg width="32" height="26" viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">

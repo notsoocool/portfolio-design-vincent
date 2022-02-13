@@ -1,8 +1,8 @@
 import Head from "next/head";
 import React from "react";
-import Landing from "./components/Landing/Landing";
-import Footer from "./props/Footer";
-import Header from "./props/Header";
+import Landing from "./Landing";
+import Footer from "../props/Footer";
+import Header from "../props/Header";
 
 export default function Home() {
 /*  //Hook to grab window size
@@ -65,10 +65,9 @@ export default function Home() {
         <title>Portfolio Vincent</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header/>
-   
-        <Landing />
-        <Footer/>
+      <Header/> 
+      <Landing/>
+      <Footer/>
     </div>
   );
 }
