@@ -69,13 +69,13 @@ const Stairy =() => {
     </div>
     <div className=" flex xl:hidden flex-col xl:flex-row w-full pt-[15%] justify-center">
       <div className=" pl-1">
-        <img src="https://cdn.discordapp.com/attachments/941091409509896283/942529415894687794/Image_4.svg" alt="" className=" w-[350px]"/>
+        <img src="https://cdn.discordapp.com/attachments/941091409509896283/942529415894687794/Image_4.svg" alt="" className=" w-[80%]"/>
       </div>
       <div className="flex  justify-end pr-5 pt-5 ">
-        <img src="https://cdn.discordapp.com/attachments/941091409509896283/942528420808646696/Image_4.svg" alt="" className=" w-[400px]"/>
+        <img src="https://cdn.discordapp.com/attachments/941091409509896283/942528420808646696/Image_4.svg" alt="" className=" w-[85%]"/>
       </div>
       <div className=" pt-5 pl-4">
-        <img src="https://cdn.discordapp.com/attachments/941091409509896283/942529958394343474/Image_4.svg" alt="" className=" "/>
+        <img src="https://cdn.discordapp.com/attachments/941091409509896283/942529958394343474/Image_4.svg" alt="" className=" w-[45%]"/>
       </div>
     </div>
     <div className="flex w-full pt-[10%] justify-evenly pb-[11rem] xl:pb-[7%]">
