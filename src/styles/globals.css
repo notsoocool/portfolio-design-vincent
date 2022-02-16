@@ -20,9 +20,9 @@ body,
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-white dark:bg-black transition-all duration-500;
+  @apply bg-black dark:bg-black transition-all duration-500;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply dark:bg-gradient-to-b from-black to-white via-gray-700 rounded-3xl;
+  @apply bg-gradient-to-b from-black to-cyan-500 via-gray-700 rounded-3xl;
 }
