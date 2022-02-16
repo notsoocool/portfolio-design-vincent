@@ -1,10 +1,28 @@
 import React from "react";
 import Link from 'next/link';
+import { motion } from "framer-motion";
 
 const Landing = () => {
+
+    
+    const childV={
+        hidden: {
+            opacity: 0,
+            y: 100
+        },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 2,
+                ease: "easeInOut"
+            }
+        }
+    }
    
   
   return (
+
   
     <div className=" overflow-x-hidden bg-white dark:bg-black mt-[25%] xl:mt-[10%] transition-colors duration-500 ">
 
@@ -13,41 +31,83 @@ const Landing = () => {
                 Vincent Van Gogh.
                 post-impressionist painter and artist
         </p>
-        <div className=" pt-[10%] pl-[10%] xl:pl-0 pr-[10%] xl:pr-[5%] flex flex-col xl:flex-row justify-center">
-            <div className="pr-[10%]">
+        <motion.div className=" pt-[10%] pl-[10%] xl:pl-0 pr-[10%] xl:pr-[5%] flex flex-col xl:flex-row justify-center"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.3 }}
+            variants={{
+                visible: {
+                    opacity: 1,
+                    transition: {
+                        staggerChildren: 0.7
+                    }
+                } ,
+              hidden: { opacity: 0}
+            }}
+        >
+            <motion.div className="pr-[10%]" variants={childV}>
                 <Link href="/Night">
                     <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357990319751238/1.svg"  className="cursor-pointer"/>
                 </Link>
-                <Link href="/Night">
+                <Link href="/Night" >
                     <a className="font-Inter dark:text-white duration-500 ease-in-out">1 &nbsp;&nbsp;&nbsp;&nbsp; THE STARRY NIGHT</a>
                 </Link>
-            </div>
+            </motion.div>
             
-            <div className=" pt-[10%]  xl:pt-[3%]">
+            <motion.div className=" pt-[10%]  xl:pt-[3%]" variants={childV}>
                 <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357990890168320/2.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">2 &nbsp;&nbsp;&nbsp;&nbsp;   THE NIGHT CAFE</a>
-            </div>
-        </div>
-        <div className=" pt-10 xl:pt-24 pl-[10%] xl:pl-[7%] flex flex-col xl:flex-row justify-center">
-            <div className="pr-[17%] xl:pr-[11%]">
+            </motion.div>
+        </motion.div>
+        <motion.div className=" pt-10 xl:pt-24 pl-[10%] xl:pl-[7%] flex flex-col xl:flex-row justify-center"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.3 }}
+            variants={{
+                visible: {
+                    opacity: 1,
+                    transition: {
+                        staggerChildren: 0.7
+                    }
+                } ,
+            hidden: { opacity: 0}
+            }}
+        >
+            <motion.div className="pr-[17%] xl:pr-[11%]" variants={childV}>
                 <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357991158599710/3.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">3 &nbsp;&nbsp;&nbsp;&nbsp;   THE RED VINEYARD</a>
-            </div>
-            <div className=" pt-11 xl:pt-0 pr-10 xl:pr-0">
+            </motion.div>
+            <motion.div className=" pt-11 xl:pt-0 pr-10 xl:pr-0" variants={childV}>
                 <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357979792044072/4.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">4 &nbsp;&nbsp;&nbsp;&nbsp;   WARD IN THE HOSPITAL IN ARLES</a>
-            </div>
-        </div>
-        <div className=" pt-10 xl:pt-24 pl-[10%] xl:pl-0 flex flex-col xl:flex-row justify-center">
-            <div className="pr-[11%] xl:pr-[3%]">
+            </motion.div>
+        </motion.div>
+        <motion.div className=" pt-10 xl:pt-24 pl-[10%] xl:pl-0 flex flex-col xl:flex-row justify-center"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.3 }}
+            variants={{
+                visible: {
+                    opacity: 1,
+                    transition: {
+                        staggerChildren: 0.7
+                    }
+                } ,
+            hidden: { opacity: 0}
+            }}
+        >
+            <motion.div className="pr-[11%] xl:pr-[3%]" variants={childV}>
                 <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357980194693190/5.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">5 &nbsp;&nbsp;&nbsp;&nbsp;   PLOUGHMAN IN THE FIELDS NEAR ARLES</a>
-            </div>
-            <div className="pr-[16%] xl:pr-0 pt-11 xl:pt-[3%]">
+            </motion.div>
+            <motion.div className="pr-[16%] xl:pr-0 pt-11 xl:pt-[3%]" variants={childV}>
                 <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357989787054140/6.svg" />
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">6  &nbsp;&nbsp;&nbsp;&nbsp;  PAUL GAUGUINS'S ARMCHAIR</a>
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
         <p className="pt-20 xl:pt-[10%] w-[90%] xl:w-[80%] font-Inter uppercase self-start text-[2rem] xl:text-[5rem] pl-[10%] dark:text-white transition duration-500 ease-in-out">
             Van Gogh painted several landscapes with flowers, roses, lilacs, and sunflowers.
         </p>
