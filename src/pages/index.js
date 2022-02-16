@@ -1,11 +1,12 @@
 import Head from "next/head";
-import React from "react";
+import React,{useRef, useEffect} from "react";
 import Landing from "./Landing";
 import Footer from "../props/Footer";
 import Header from "../props/Header";
+import useWindowSize from "../hooks/useWindowSize";
 
 export default function Home() {
-/*  //Hook to grab window size
+ //Hook to grab window size
  const size = useWindowSize();
 
  // Ref for parent div and scrolling div
@@ -32,10 +33,10 @@ export default function Home() {
 
  //Set the height of the body to the height of the scrolling div
  const setBodyHeight = () => {
-   document.body.style.height = `${
-     scrollContainer.current.getBoundingClientRect().height
-   }px`;
- };
+  document.body.style.height = `${
+    scrollContainer.current.getBoundingClientRect().height
+  }px`;
+};
 
  // Scrolling
  const skewScrolling = () => {
@@ -57,10 +58,10 @@ export default function Home() {
 
    //loop vai raf
    requestAnimationFrame(() => skewScrolling());
- }; */
+ };
 
   return (
-    <div className="dark:bg-black scroll-smooth w-full h-full transition-colors duration-500">
+    <div ref={scrollContainer} className="dark:bg-black scroll-smooth w-full h-full transition-colors duration-500">
       <Head>
         <title>Portfolio Vincent</title>
         <link rel="icon" href="/favicon.ico" />
