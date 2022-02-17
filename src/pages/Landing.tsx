@@ -27,10 +27,25 @@ const Landing = () => {
     <div className=" overflow-x-hidden bg-white dark:bg-black mt-[25%] xl:mt-[10%] transition-colors duration-500 ">
 
       <main className="flex flex-col content-center">
-        <p className=" font-Inter w-[90%] xl:w-[60%] uppercase self-start text-[2rem] xl:text-[5rem] pl-[10%] dark:text-white transition duration-500 ease-in-out">
+        <motion.p className=" font-Inter w-[90%] xl:w-[60%] uppercase self-start text-[2rem] xl:text-[5rem] pl-[10%] dark:text-white transition duration-500 ease-in-out"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            variants={{
+                visible: {
+                    opacity: 1,
+                    transition: {
+                        delay: 2,
+                        duration: 1
+                    }
+                } ,
+              hidden: { opacity: 0}
+            }}
+        >
                 Vincent Van Gogh.
                 post-impressionist painter and artist
-        </p>
+        </motion.p>
         <motion.div className=" pt-[10%] pl-[10%] xl:pl-0 pr-[10%] xl:pr-[5%] flex flex-col xl:flex-row justify-center"
             initial="hidden"
             whileInView="visible"
@@ -56,8 +71,12 @@ const Landing = () => {
             </motion.div>
             
             <motion.div className=" pt-[10%]  xl:pt-[3%]" variants={childV}>
-                <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357990890168320/2.svg" />
-                <a className="font-Inter dark:text-white duration-500 ease-in-out">2 &nbsp;&nbsp;&nbsp;&nbsp;   THE NIGHT CAFE</a>
+                <Link href="/Cafe">
+                    <img src="https://cdn.discordapp.com/attachments/941091409509896283/942357990890168320/2.svg" className="cursor-pointer"/>
+                </Link>
+                <Link href="/Cafe">
+                    <a className="font-Inter dark:text-white duration-500 ease-in-out">2 &nbsp;&nbsp;&nbsp;&nbsp;   THE NIGHT CAFE</a>
+                </Link>
             </motion.div>
         </motion.div>
         <motion.div className=" pt-10 xl:pt-24 pl-[10%] xl:pl-[7%] flex flex-col xl:flex-row justify-center"
@@ -108,12 +127,42 @@ const Landing = () => {
                 <a className="font-Inter dark:text-white duration-500 ease-in-out">6  &nbsp;&nbsp;&nbsp;&nbsp;  PAUL GAUGUINS'S ARMCHAIR</a>
             </motion.div>
         </motion.div>
-        <p className="pt-20 xl:pt-[10%] w-[90%] xl:w-[80%] font-Inter uppercase self-start text-[2rem] xl:text-[5rem] pl-[10%] dark:text-white transition duration-500 ease-in-out">
+        <motion.p className="pt-20 xl:pt-[10%] w-[90%] xl:w-[80%] font-Inter uppercase self-start text-[2rem] xl:text-[5rem] pl-[10%] dark:text-white transition duration-500 ease-in-out"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            variants={{
+                visible: {
+                    opacity: 1,
+                    y: 0,
+                    transition: {
+                        delay: 0.5
+                    }
+                } ,
+              hidden: { opacity: 0, y: 100}
+              
+            }}
+        >
             Van Gogh painted several landscapes with flowers, roses, lilacs, and sunflowers.
-        </p>
-        <p className="pt-5 xl:pt-11 w-[90%] xl:w-[80%] font-Inter uppercase self-start text-[0.8rem] xl:text-[2rem] pl-[10%] dark:text-white transition duration-500 ease-in-out">
+        </motion.p>
+        <motion.p className="pt-5 xl:pt-11 w-[90%] xl:w-[80%] font-Inter uppercase self-start text-[0.8rem] xl:text-[2rem] pl-[10%] dark:text-white transition duration-500 ease-in-out"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            variants={{
+                visible: {
+                    opacity: 1, y: 0,
+                    transition: {
+                        delay: 0.5
+                    }
+                } ,
+              hidden: { opacity: 0, y: 100}
+            }}
+        >
             Some reflect his interests in the language of colour, and also in Japanese ukiyo-e. There are two series of dying sunflowers. The first was painted in Paris in 1887 and shows flowers lying on the ground.
-        </p>
+        </motion.p>
         <div className="pt-[8rem] pl-[5%] xl:pl-0 w-[100%] flex flex-col xl:flex-row justify-end pb-[15rem] xl:pb-[20rem]">
             <img src="https://cdn.discordapp.com/attachments/941091409509896283/942358432466477076/Group.svg" className="pr-[6%]"/>
             <div className=" flex w-full xl:w-[55%] flex-col pt-11 xl:pt-[6rem] xl:pr-[12%] font-Inter uppercase">
