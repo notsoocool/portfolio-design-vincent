@@ -46,22 +46,22 @@ const Red =() => {
       <img src="https://cdn.discordapp.com/attachments/941091409509896283/943861938323075103/Image_1.svg" alt="" className="w-[70%]" />
     </div>
    
-    <div className=" flex flex-col xl:flex-row justify-center pt-[15%] xl:pt-[10%]">
-      <div className=" flex flex-col w-[35%] justify-end place-items-end pr-[5%]">
-        <img src="https://cdn.discordapp.com/attachments/941091409509896283/943862500020092998/Image_2.svg" alt="" className=" rotate-90 xl:rotate-0        pr-[5%]   h-[350px]    xl:h-[520px] 2xl:h-[450px]"/>
-        <span className=" pt-[50%] text-black dark:text-white text-[2.5rem] uppercase duration-500 ease-in-out">The interior depicted is the Café de la Gare, 30 Place Lamartine, run by Joseph Ginoux and his wife Marie, who in November 1888 posed for Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed for both artists.</span>
+    <div className=" flex flex-row justify-center pt-[15%] xl:pt-[5%] 2xl:pt-[10%]">
+      <div className=" flex flex-col w-[60%] xl:w-[40%] 2xl:w-[35%] justify-end place-items-end pr-[5%]">
+        <img src="https://cdn.discordapp.com/attachments/941091409509896283/943862500020092998/Image_2.svg" alt="" className="hidden xl:block rotate-90 xl:rotate-0        pr-[5%]   h-[350px]    xl:h-[320px] 2xl:h-[450px]"/>
+        <span className=" pt-[50%] text-black dark:text-white xl:text-[1.8rem] 2xl:text-[2.5rem] uppercase duration-500 ease-in-out">The interior depicted is the Café de la Gare, 30 Place Lamartine, run by Joseph Ginoux and his wife Marie, who in November 1888 posed for Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed for both artists.</span>
       </div>
-        <img src="https://cdn.discordapp.com/attachments/941091409509896283/943862647353405460/Image_3.svg" alt="" className=" rotate-90 xl:rotate-0   mt-[7%]     pl-[5%]  h-[350px]   xl:h-[520px] 2xl:h-[800px]"/> 
-    </div>
-    <div className="flex h-screen justify-center mt-[10%]">
+        <img src="https://cdn.discordapp.com/attachments/941091409509896283/943862647353405460/Image_3.svg" alt="" className="  xl:mt-[10%] 2xl:mt-[7%]     xl:pl-[5%]  h-[150px]   xl:h-[520px] 2xl:h-[800px]"/> 
+      </div>
+    <div className="flex xl:h-screen justify-center mt-[10%]">
       <img src="https://cdn.discordapp.com/attachments/941091409509896283/943865474205249577/Image_4.svg" alt="" className="w-[70%]" />
     </div>
     <div className=" flex justify-center ml-[25%] mt-[10%]">
       <div className="w-[70%]">
-        <span className= " text-5xl text-black dark:text-white uppercase duration-500 ease-in-out" >he Night Café (French: Le Café de nuit) is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles.[1] Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut.</span>
+        <span className= "xl:text-[1.8rem]  2xl:text-5xl text-black dark:text-white uppercase duration-500 ease-in-out" >he Night Café (French: Le Café de nuit) is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles.[1] Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut.</span>
       </div>
     </div>
-    <div className="flex h-screen justify-center mt-[10%]">
+    <div className="flex xl:h-screen justify-center mt-[10%]">
       <img src="https://cdn.discordapp.com/attachments/941091409509896283/943869006002126848/Image_5.svg" alt="" className="w-[70%]" />
     </div>
  
